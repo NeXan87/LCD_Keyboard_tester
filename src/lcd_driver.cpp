@@ -34,7 +34,6 @@ void lcdPrintInt(long value) {
 void lcdPrintf(const char* format, ...) {
     va_list args;
     va_start(args, format);
-    // vsnprintf гарантирует null-termination и безопасность
     int written = vsnprintf(lcdPrintfBuffer, sizeof(lcdPrintfBuffer), format, args);
     va_end(args);
 
