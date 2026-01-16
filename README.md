@@ -31,4 +31,4 @@
 - Arduino IDE ≥ 1.8.19 **или** PlatformIO
 - Библиотеки:
   - [`AnalogMultiBUtton`](https://github.com/dxinteractive/AnalogMultiButton)
-  - Стандартная библиотека `LiquidCrystal`
+  - [`LiquidCrystal`](https://github.com/arduino-libraries/LiquidCrystal)
