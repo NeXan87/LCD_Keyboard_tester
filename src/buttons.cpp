@@ -5,8 +5,6 @@
 #include "config.h"
 
 static constexpr int BUTTONS_VALUES[BUTTONS_TOTAL] = {BUTTON_RIGHT_ADC, BUTTON_UP_ADC, BUTTON_DOWN_ADC, BUTTON_LEFT_ADC, BUTTON_SELECT_ADC};
-
-// Определение объекта
 static AnalogMultiButton buttons(BUTTONS_PIN, BUTTONS_TOTAL, BUTTONS_VALUES, BUTTONS_DEBOUNCE_MS);
 
 void updateButtons() {
