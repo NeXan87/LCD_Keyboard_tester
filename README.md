@@ -30,5 +30,5 @@
 
 - Arduino IDE ≥ 1.8.19 **или** PlatformIO
 - Библиотеки:
-  - [`AnalogMultiBUtton`](https://github.com/ZacharyJFields/AnalogMultiButton) by Zachary J. Fields
+  - [`AnalogMultiBUtton`](https://github.com/dxinteractive/AnalogMultiButton)
   - Стандартная библиотека `LiquidCrystal`
